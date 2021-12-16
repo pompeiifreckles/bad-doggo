@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+  }
+  
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+img {
+  margin: 5px;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2c2e43;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+} 
+
+#heading {
+  font-size: 8em;
+  color: aliceblue;
+  font-family: 'Heebo', sans-serif;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  position: absolute;
+  padding-top: 25vh;
+}
+
+#heading:hover {
+  color: hotpink;
+}
+
+#bad-doggo {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.content {
+  color: aliceblue;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  align-items: center;
+  width: 45%;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 30vh;
+  margin-bottom: 30vh;
+  padding-top: 45vh;
+}
+
+
+
+.gallery {
+  max-width: 15em;
+}
+
+.flex-column {
+  max-width: 33vw;
+  min-width: 20vw;
+}
+
+.mugshot {
+  border-radius: 50%;
+  margin: 5px;
+}
+.nav {
+  color: aliceblue;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  align-items: center;
+  width: 45%;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 30vh;
+  margin-bottom: 0;
+  padding-top: 45vh;
+}
